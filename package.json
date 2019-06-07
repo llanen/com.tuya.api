@@ -1,0 +1,22 @@
+{
+  "name": "com.tuya.api",
+  "version": "1.0.0",
+  "description": "Tuya API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llanen/com.tuya.api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llanen/com.tuya.api/issues"
+  },
+  "homepage": "https://github.com/llanen/com.tuya.api#readme",
+  "dependencies": {
+    "tuyapi": "github:codetheweb/tuyapi"
+  }
+}

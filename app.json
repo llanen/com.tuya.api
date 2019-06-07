@@ -9,9 +9,7 @@
   "description": {
     "en": "Add support for Tuya devices"
   },
-  "category": [
-    "appliances"
-  ],
+  "category": ["appliances"],
   "permissions": [],
   "images": {
     "large": "/assets/images/large.png",
@@ -20,5 +18,32 @@
   "author": {
     "name": "Leon Lanen",
     "email": "l.lanen@gmail.com"
-  }
+  },
+  "drivers": [
+    {
+      "id": "driver",
+      "name": {
+        "en": "driver"
+      },
+      "class": "socket",
+      "capabilities": ["onoff"],
+      "images": {
+        "large": "/drivers/driver/assets/images/large.png",
+        "small": "/drivers/driver/assets/images/small.png"
+      },
+      "pair": [
+        {
+          "id": "list_devices",
+          "template": "list_devices",
+          "navigation": {
+            "next": "add_devices"
+          }
+        },
+        {
+          "id": "add_devices",
+          "template": "add_devices"
+        }
+      ]
+    }
+  ]
 }
